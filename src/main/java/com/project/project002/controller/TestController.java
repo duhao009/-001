@@ -13,6 +13,6 @@ public class TestController {
 
     @GetMapping("test")
     public String test(String string){
-        return  "master====" + string;
+        return  "master123====" + string;
     }
 }
