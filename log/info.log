@@ -1,0 +1,8 @@
+14:56:15.369 [main] INFO  com.project.project002.Project002Application - Starting Project002Application on DESKTOP-F9VPBR9 with PID 10780 (C:\Users\ASUS\Desktop\gitSpace\test-001\target\classes started by ASUS in C:\Users\ASUS\Desktop\gitSpace\test-001)
+14:56:15.380 [main] INFO  com.project.project002.Project002Application - No active profile set, falling back to default profiles: default
+14:56:15.985 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+14:56:15.985 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:56:15.986 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+14:56:16.050 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:56:16.268 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+14:56:16.291 [main] INFO  com.project.project002.Project002Application - Started Project002Application in 1.206 seconds (JVM running for 2.245)
