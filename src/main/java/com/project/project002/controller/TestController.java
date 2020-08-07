@@ -1,13 +1,11 @@
 package com.project.project002.controller;
 
-import com.project.project002.entity.Type;
 import com.project.project002.service.TypeService;
+import com.project.project002.util.JsonResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
 
 /**
  * Created by miyakohiroshi on 2020/7/10.
@@ -20,12 +18,13 @@ public class TestController {
     private TypeService typeService;
 
     @GetMapping("test")
-    public String test(String string){
-        return  "master123====" + string;
+    public JsonResult test(String string){
+        return new JsonResult("master123====" + string) ;
     }
 
     @GetMapping("testMysql")
-    public List<Type> testMysql(){
-        return  typeService.getTypeByCode("signUpTimes");
+    public JsonResult testMysql(){
+        int n = 1/3;
+        return  new JsonResult(typeService.getTypeByCode("signUpTimes")) ;
     }
 }
