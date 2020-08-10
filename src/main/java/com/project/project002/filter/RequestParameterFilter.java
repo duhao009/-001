@@ -49,8 +49,6 @@ public class RequestParameterFilter extends OncePerRequestFilter {
         }
 
 
-
-
         List<String> urls = new ArrayList<String>();
         urls.add("/swagger-ui.html");
         urls.add("/swagger-resources/configuration/ui");

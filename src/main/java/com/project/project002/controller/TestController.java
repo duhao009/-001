@@ -24,7 +24,6 @@ public class TestController {
 
     @GetMapping("testMysql")
     public JsonResult testMysql(){
-        int n = 1/3;
         return  new JsonResult(typeService.getTypeByCode("signUpTimes")) ;
     }
 }
