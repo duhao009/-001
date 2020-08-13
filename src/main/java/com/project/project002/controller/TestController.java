@@ -1,5 +1,6 @@
 package com.project.project002.controller;
 
+import com.project.project002.filter.MyNote;
 import com.project.project002.service.TypeService;
 import com.project.project002.util.JsonResult;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,9 +20,11 @@ public class TestController {
 
     @GetMapping("test")
     public JsonResult test(String string){
-        return new JsonResult("master123====" + string) ;
+
+        return new JsonResult("master=====" + string) ;
     }
 
+    @MyNote
     @GetMapping("testMysql")
     public JsonResult testMysql(){
         return  new JsonResult(typeService.getTypeByCode("signUpTimes")) ;
