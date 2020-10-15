@@ -21,7 +21,7 @@ public class TestController {
     @GetMapping("test")
     public JsonResult test(String string){
 
-        return new JsonResult("改动以后的master=====" + string) ;
+        return new JsonResult("1015的master=====" + string) ;
     }
 
     @MyNote
